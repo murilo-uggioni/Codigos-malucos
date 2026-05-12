@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificando idades</h1>
+    </header>
+    
+    <section>
+        <div>
+            <p>Ano de nascimento: <input type="number" id="txtano" min="0"></p>
+
+            <p>Qual é o sexo:<input type="radio" name="sexo" id="masculino" checked>Masculino
+            <input type="radio" name="sexo" id="feminino">Feminino</p>
+             
+            <p><input type="button" value="verificar" onclick="verificar()"></p>
+            
+        </div>
+        <div id="resp"></div>
+    </section>
+
+    <footer>
+        <p>&copy; Murilo Uggioni da Silva</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
